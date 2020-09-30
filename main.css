@@ -179,9 +179,6 @@ position: relative;
     margin: 15px;
     height: 1270px;
 }
-body{
-    background: rgb(221, 226, 245);
-}
 .ejemplos{
     border: blue 2px solid;
     width: 90%;
@@ -409,10 +406,19 @@ border: black 1px solid;
     border: 3px black solid;
     margin: 15px;
 }
+.tbp30 tr td{
+    border: black 2px solid;
+}
 .p31{
     width: 21cm;
     border: 3px black solid;
     margin: 15px;
+}
+.tbp31s1 tr td{
+    border: black 2px solid;
+}
+.tbp31s2 tr td{
+    border: black 2px solid;
 }
 .p32{
     width: 21cm;

@@ -1865,7 +1865,7 @@
     <div style="width: 80%;background: tomato;margin-left: 20px;">
         <p>Reflexiona ¿Cómo se puede usar la probabilidad condicional para hacer predicciones?</p>
     </div>
-    <div style="border: black 2px solid;">
+    <div style="border: black 2px solid; width: 90%;margin-left:20px;">
         <h2>Desarrollar habilidades de indagación</h2>
         <div style="display: flex;">
             <div style="margin-left: 10px;">
@@ -1878,35 +1878,506 @@
             <div style="width: 90%;">
                 <img src="Picture/p2 .jpg" style="width: 100%;">
             </div>
+        </div>    
             <div>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>¿Qué es P (A n B)? Esta es la probabilidad de que hay un coche detrás de la puerta 1, el concursante ha elegido la puerta 3 y hay un error detrás de la puerta 2.</p>
+                <p>Aquí el coche está detrás de la puerta 1 (probabilidad y el concursante ha elegido la puerta 3 (probabilidad |).</p>
+                <p>Monty Hall tiene que mostrar lo que hay detrás de la puerta 2 (probabilidad 1],</p>
+                <p>Entonces P(A n B)=1/3*1/3=1/9</p>
+                <p>¿Cuál es la probabilidad de que se muestre un error detrás de la puerta 2 dado que la elección fue la puerta 3?</p>
+                <p>Esta situación puede surgir de dos formas:/p>
+                <p>1 Cuando el automóvil está detrás de la puerta 1:</p>
+                <p>La probabilidad es, como se muestra arriba.</p>
+            </div>
+    </div>
+    <h3 class="npr">380</h3>
+</div>
+<!--Pagina 30-->
+<div class="p30">
+    <div style="background: red;color: white;display: inline-flex;padding: 10px;margin-top: 0ch;position: relative;left: 600px;">
+        <h1>8.4</h1>
+    </div>
+    <hr color="red" size="3" width="80%" style="position: relative;bottom: 11px;right:55px;">
+    <div style="margin-top:30px;border: 2px solid black;width: 90%;margin-left: 20px;">
+        <p>2 Cuando el automóvil está detrás de la puerta 3:</p>
+        <p>Aquí Monty podría revelar lo que hay detrás de la puerta 1 o la puerta 2. Es igualmente probable que elija cualquiera de estas puertas, por lo que la probabilidad de mostrar lo que hay detrás de la puerta 2 es 1/2*1/9=1/18</p>
+        <p>Por lo tanto, la probabilidad de que se revele un premio no deseado detrás de la puerta 2 dado que el El concursante ha elegido la puerta 3 es la suma de estos:1/18+1/9=3/18</p>
+        <p>Esto es P (B).</p>
+        <p>Queremos la probabilidad condicional P (A \ B) ya que se relaciona con el concursante que gana el premio. Esto es dado por P(A/B=P(A n B)/P(B)=1/9*18/3=2/3</p>
+        <p>Esto significa que la probabilidad condicional de que el coche esté detrás de la puerta 3 dado que el concursante ha elegido puerta 3 y se ha demostrado que hay un premio no deseado detrás de la puerta 2 es sólo Por lo tanto, ¡vale la pena cambiar!</p>
+    </div>
+    <h2>8.4.-Diagramas de árbol de probabilidad</h2>
+    <div style="background: #ffe;width: 90%;margin-left: 20px;">
+        <h3>Investigación 8</h3>
+        <p>Una bolsa contiene cinco bolas azules y dos verdes. Se recogen tres bolas, una a la vez, de la bolsa.</p>
+        <p>Considere dos situaciones diferentes:</p>
+        <p><b>1.-</b>Se selecciona una bola y se anota el color, luego la bola se vuelve a colocar en el bolso.</p>
+        <p><b>2.-</b>Se selecciona una bola y se anota el color, luego la bola no se vuelve a colocar</p>
+        <p>Un único ensayo en estos experimentos consiste en seleccionar una muestra de tres bolas, una a la vez, de la bolsa.</p>
+        <p><b>1.-</b>Haga una lista de todos los posibles resultados en cada situación; Por ejemplo tu podría obtener BBG (un azul seguido de un azul seguido de un verde) en cada caso.</p>
+        <div>
+            <table class="tbp30">
+                <tr>
+                    <td></td>
+                    <td>Situación 1</td>
+                    <td>Situación 2</td>
+                </tr>
+                <tr>
+                    <td>Lista de posiblesresultados</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Número de posiblesresultados</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h3 class="npl">381</h3>
+</div>
+<!--Pagina 31-->
+<div class="p31">
+    <div style="display: flex;">
+        <h1 style="background: red;color: white;padding: 15px;margin-top: 0ch;">8</h1>
+        <h3>CUANTIFICACIÓN DEL ALEATORIO: PROBABILIDAD</h3>
+    </div>
+    <hr color="red" size="3" width="80%" style="position:relative;right:33px;top:-32px;">
+    <div style="background: #ffe;width: 90%;margin-left: 20px;">
+        <p><b>2.-</b>¿Qué resultado es imposible en la situación 2 que es posible en la situación 1?¿Por qué?</p>
+        <p><b>3.-</b>¿Cuál es la probabilidad de obtener una azul en la primera elección en cada situación?</p>
+        <p><b>4.-</b>Si obtiene un azul en la primera selección, ¿es más probable que obtenga un azul en el ¿Segunda elección en la situación 1 o en la situación 2?</p>
+        <p><b>5.-</b>¿Cuál es la probabilidad de obtener una azul en la segunda elección en cada situación?</p>
+        <p><b>6.-</b>¿La probabilidad de obtener una azul en la segunda elección depende de o independiente del resultado en la primera selección?</p>
+        <p><b>7.-</b>¿Cuál es la probabilidad de sacar azul en la tercera elección en cada situación?</p>
+        <div>
+            <table class="tbp31s1">
+                <tr>
+                    <td></td>
+                    <td>Situación 1</td>
+                    <td>Situación 2</td>
+                </tr>
+                <tr>
+                    <td>Probabilidad de azul en la primera elección</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Probabilidad de azul en el segundo recoger</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Probabilidad de azul en la tercera elección</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>¿Dependiente o independiente?</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <p><b>8.-</b>¿Es más probable obtener tres azules en la situación 1 o en la situación 2?</p>
+        <p><b>9.-</b>¿ En qué situación es más probable BBG? ¿Cómo puedes calcularlo?</p>
+        <div>
+            <table class="tbp31s2">
+                <tr>
+                    <td></td>
+                    <td>Situación 1</td>
+                    <td>Situación 2</td>
+                </tr>
+                <tr>
+                    <td>Probabilidad de azul seguido deazul seguido de azul (BBB)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Probabilidad de BBG</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <p><b>10.-</b>Calcula las probabilidades asociadas con cada resultado posible en tu lista.</p>
+        <p><b>11.-Concepto</b>¿Cómo afecta el reemplazo "con" o "sin" el análisis y la representación de la probabilidad?</p>    
+    </div>
+    <div style="width: 90%;margin-left: 30px;">
+        <div style="border: red 2px solid;background: #ffe;">
+            <p>Las situaciones en probabilidad pueden involucrar "con reemplazo" o "sinreemplazo ”y hay una diferencia en las probabilidades que se calculanen cada caso.</p>
+        </div>
+        <p>Crear una lista de los posibles resultados y las probabilidades no esnecesariamente el método más eficiente de representar probabilidades.</p>
+        <p>Podemos usar diagramas de árbol de probabilidad para representar probabilidades dondeocurre más de un evento. Consideraremos dos ejemplos adicionalesantes de volver al problema anterior.</p>
+        <h3>"Con reemplazo" y eventos repetidos</h3>
+        <p>El siguiente ejemplo funciona mediante la construcción de un árbol.diagrama para una situación que es similar al "con reemplazo"problema. ¿Qué aspecto de esta situación la hace similar a "conreemplazo "problema?</p>
+    </div>
+    <h3 class="npr">382</h3>
+</div>
+<!--Pagina 32-->
+<div class="p32">
+    <div style="background: red;color: white;display: inline-flex;padding: 10px;margin-top: 0ch;position: relative;left: 600px;">
+        <h1>8.4</h1>
+    </div>
+    <hr color="red" size="3" width="80%" style="position: relative;bottom: 11px;right:55px;">
+    <div style="width:90%;margin-left:20px;">
+        <h3>Ejemplo 9</h3>
+        <p></p>
+        <p><b>a.-</b>Represente esta información en un diagrama de árbol,</p>
+        <p><b>b.-</b>Encuentre la probabilidad de que Raghav:</p>
+        <ol>i.- golpea dos dianas</ol>
+        <ol>ii.-solo da en una diana</ol>
+        <ol>iii.-acerta al menos en una diana</ol>
+        <div style="display: flex;background: white;width: 90%;border: blue 2px solid;">
+            <div style="border: blue 2px solid;width: 50%;">
+                <p>a La primera sección del diagrama de árbol representaEl primer disparo de Raghav.</p>
+                <p>¿Cuántos resultados posibles hay para esto?</p>
+                <p>¿Disparo?</p>
+                <p>En términos de diana, hay dos posiblesresultados, ya sea en el blanco (H) operdiendo la diana (AT).</p>
+                <p>P(H)=0.8</p>
+                <p>P(M)=0.2</p>
+                <img src="Picture/img-p31s1.png">
+                <p>El resultado está al final de la rama; ella probabilidad asociada con ella está al lado de la rama.</p>
+                <p>El segundo disparo también acertará o fallará eldiana.</p>
+                <p>Por tanto, hay cuatro posibles resultados deel experimento:</p>
+                <li>un golpe seguido de un golpe (H y H)</li>
+                <li>un acierto seguido de un error (H y M)<li>
+                <li>una falla seguida de un acierto (M y H)</li>
+                <li>una falla seguida de una falla (AT y M)</li>
+                <p>Estos cuatro resultados se pueden ver en el árbol.diagrama.</p>
+                <img src="Picture/img-p31s2.png">
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <h3 class="npl">383</h3>
+</div>
+<!--Pagina 33-->
+<div class="p33">
+    <div style="display: flex;">
+        <h1 style="background: red;color: white;padding: 15px;margin-top: 0ch;">8</h1>
+        <h3>CUANTIFICACIÓN DEL ALEATORIO: PROBABILIDAD</h3>
+    </div>
+    <hr color="red" size="3" width="80%" style="position:relative;right:33px;top:-32px;">
+    <div style="display: flex;background: white;width: 90%;border: blue 2px solid;margin-left: 20px;">
+        <div style="border: blue 2px solid;width: 50%;">
+            <p><b>b.-</b>Requerimos P(H n H)</p>
+            <p>Dado que un golpe con el primer disparo es independientede conseguir un golpe con el segundo disparo,multiplica las probabilidades juntas.Multiplicando a lo largo de las dos ramas superiores: p(H norte H)=0.8*0.8=0.64 </p>
+            <p>ii.-Requerimos P (H n Af) + P (Af n H) como soloun golpe podría significar un golpe en el primer tiro,o un error en el primer disparo y un golpe en elsegundo disparo.</p>
+            <p>Los eventos (H n Af) y (Af n H) sonmutuamente excluyentes; es decir, no puedenambos ocurren al mismo tiempo. Así que aquí estamosmultiplicar a lo largo de las ramas para P (H n Af)y P (A / n H) ya que los eventos son independientesy luego sume los dos valores como estánmutuamente excluyentes.</p>
+            <p>P(H n M) +P(M n H)  </p>
+            <p>=(0.8*0.2)+(0.2*0.8)=0.32</p>
+            <p>ii.- p(al menos una diana)=1-P(M n M)</p>
+            <p>1-(0.2*0.2)</p>
+            <p>1-0.04=0.96</p>
+        </div>
+        <div></div>
+    </div>
+    <div style="display: flex;margin-left: 20px;width: 90%;">
+        <div>
+            <p>Ahora regrese al problema de la investigación 8. Dibuje un diagrama de árbolpara representar este problema. Cuántas secciones diferentes del árboldiagrama habrá? ¿Cuántos resultados diferentes hay en cada¿sección? Agrega las probabilidades relevantes al diagrama.</p>
+            <h3>"Sin reemplazo" y probabilidad condicional</h3>
+            <p>El siguiente ejemplo funciona mediante la construcción de un árbol.diagrama para una situación que es similar al "sin reemplazo"problema. ¿Qué aspecto de esta situación la hace similar a un "sinreemplazo "problema?</p>
+        </div>
+        <div style="background: rgb(228, 151, 228);margin-left: 20px;height: max-content;">
+            <h3>TOK</h3>
+            <p>¿Qué entendemos por¿Un juego "justo"? Es justoque los casinos deberíanobtener ganancias?</p>
+        </div>
+    </div>
+    <div style="border: black 2px solid;margin-left: 20px;width: 90%;">
+            <h3>Ejemplo 10</h3>
+            <p>Riley es una estrella en ascenso en el club de tenis de la escuela. Ha descubierto que cuando recibe suprimer servicio con la probabilidad de que gane ese punto es de 0,75.</p>
+            <p>Cuando usa su segundo servicio (porque no hace su primer servicio) hay un 0.45posibilidad de que gane el punto. Tiene éxito en conseguir su primer servicio en tres decinco ocasiones y el segundo servicio en tres de cuatro ocasiones.</p>
+            <p>a.-Encuentre la probabilidad de que la próxima vez que Riley gane el punto,</p>
+            <p>b.-Dado que Riley gana el punto, ¿cuál es la probabilidad de que haga su primer servicio?</p>
+        </div>
+    <h3 class="npr">384</h3>
+</div>
+<!--Pagina 34-->
+<div class="p34">
+    <div style="background: red;color: white;display: inline-flex;padding: 10px;margin-top: 0ch;position: relative;left: 600px;">
+        <h1>8.4</h1>
+    </div>
+    <hr color="red" size="3" width="80%" style="position: relative;bottom: 11px;right:55px;">
+    <div style="display: flex;background: white;width: 90%;border: blue 2px solid;margin-left: 20px;">
+        <div style="border: blue 2px solid;width: 50%;">
+            <p>estrella dibujando un diagrama de árbol para mostrar las probabilidades de obtener el primer servicio nuevamente. Si el servicio está dentro, mostramos la probabilidad de ganar el punto </p>
+            <p>no es necesario continuar las ramas una vez ganado o perdido el punto</p>
+            <img src="Picture/img-p34.png">
+            <p>a.-P(Ganar)=P(conseguir el primer servicio y ganar</p>
+            <p>p(perder el primer servicio, obtener el segundo servicio y ganar)</p>
+            <p>=(3/5*0.75)+(2/5*3/4*0.45)</p>
+            <p>=0.45+0.135</p>
+            <p>=0.585</p>
+            <p>b.-P(Primer servicio en|puntos ganados)</p>
+            <p>=P(primer servicio y punto de victoria)/p(puntos de victoria)</p>
+            <p>Ambos valores se han encontrado en parte a</p>
+            <p>(3/5*0.75)/0.585=0.769</p>
+        </div>
+        <div></div>
+    </div>
+    <h3>Ejercitación 8I</h3>
+    <hr color="red" width="90%" size="3">
+    <div style="display: flex;margin-left: 20px;width:90%;">
+        <div style="width: 90%;">
+            <p><b>1.-</b>Se extraen tres cartas al azar deuna baraja de cartas. Cada tarjeta no essustituido.</p>
+            <p>Encuentre la probabilidad de obtener:</p>
+             <ol>a.-tres tarjetas de imagen</ol>
+             <ol>b.-dos tarjetas con imágenes.</ol>
+            <p><b>2.-</b>Una caja de bolígrafos para colorear contiene cinco bolígrafosque están rotos y nueve bolígrafos que funcionan.</p>
+        </div>      
+        <div style="margin-left: 20px;">
+            <p>Dos niños, una niña y un niño, cada unoNecesito tomar una pluma.</p>
+            <ol>a ¿Cuál es la probabilidad de que dos se rompanse eligen bolígrafos?</ol>
+            <ol>b ¿Cuál es la probabilidad de que al menos unase elige la pluma rota?</ol>
+            <ol>c Si se elige exactamente una pluma rota, ¿quéCuál es la probabilidad de que la niña lo eligiera?</ol>
+        </div>
+    </div>
+    <h3 class="npl">385</h3>
+</div>
+<!--Pagina 35-->
+<div class="p35">
+    <div style="display: flex;">
+        <h1 style="background: red;color: white;padding: 15px;margin-top: 0ch;">8</h1>
+        <h3>CUANTIFICACIÓN DEL ALEATORIO: PROBABILIDAD</h3>
+    </div>
+    <hr color="red" size="3" width="80%" style="position:relative;right:33px;top:-32px;">
+    <div style="display: flex;margin-left: 20px;width:90%;">
+        <div style="width: 90%;">
+            <p><b>3.-</b>El equipo del anuario tiene 10 miembros, dede los cuales siete son mujeres y tres son hombres.Uno de los miembros es elegido al azar paraser el editor principal del libro.</p>
+            <ol>a Encuentre la probabilidad de que el elegidola persona es masculina.</ol>
+            <ol>b Se eligen dos personas para tomarfotografías en la jornada deportiva escolar.Encuentre la probabilidad de que uno sea hombre yel otro es femenino.</ol>
+            <p><b>4.-</b>En promedio, Luca responde cinco problemascorrectamente de siete. El promedio de Ian es de cincode nueve. Ambos intentan el mismo problema.</p>
+        </div>      
+        <div style="margin-left: 20px;">
+            <ol>a ¿Cuál es la probabilidad de que al menos unade los estudiantes responde la pregunta¿correctamente?</ol>
+            <ol>b Si la pregunta se responde correctamente,¿Cuál es la probabilidad de que Luca obtenga la¿respuesta correcta?</ol>
+            <ol>c Si la pregunta se responde correctamente,¿Cuál es la probabilidad de que Ian tenga la¿respuesta correcta?</ol>
+            <ol>d Si hubo al menos una respuesta correcta¿Cuál es la probabilidad de que hayados respuestas correctas?</ol>
+        </div>
+    </div>
+    <hr size="3" color="red">
+    <div style="border: 2px black solid;width: 90%;margin-left: 20px;">
+        <h2>Desarrollando su caja de herramientas</h2>
+        <p>Ahora realice la actividad de modelado e investigación de la página 392.</p>
+    </div>
+    <div style="border: black 2px solid;margin-left: 30px;width: 90%;background: rgb(172, 117, 224);margin-top: 20px;">
+        <div style="margin-left: 20px;">
+            <h2>Resumen del capítulo</h2>
+            <b>Probabilidad teórica y experimental</b>
+            <li>El estudio de la probabilidad nos ayuda a comprender el grado de incertidumbre de algo que sucede.</li>
+            <li>El enfoque teórico de la probabilidad se basa en una serie de eventos donde la probabilidad de cadael evento que ocurre es conocido.</li>
+            <li>El conjunto de todos los resultados de un experimento se denomina espacio muestral de ese experimento. Esdenotado por U.</li>
+            <p>La notación n (U) muestra cuántos miembros del espacio muestral hay.</p>
+            <li>La probabilidad teórica de cualquier evento A es P (A) =n(A)/n(U), donde N(A) is el número de formas en que puede ocurrir el evento A y n(U) es el número total de resultados posibles.</li>
+            <li>Si la probabilidad de un evento es P, en n intentos, esperaría que el evento ocurriera n x P veces.</li>
+            <li>Frecuencia relativa : la relación entre el número de veces que ocurre un evento y el número de ocasionesen el que podría ocurrir en el mismo período.</li>
+            <li>En probabilidad experimental, la probabilidad de un evento se basa en el resultado de una serie de pruebas. Como elnúmero de ensayos aumenta, la probabilidad se acercará más a la probabilidad real de que ocurra el evento.Este método puede ser útil cuando los resultados no son igualmente probables y, por lo tanto, se requiere una estimación.</li>
+            <b></b>
+            <li>Representar probabilidades: diagramas de Venn y espacios muestrales</li>
+            <li>• En matemáticas, “o” incluye la posibilidad de “ambos”. Entonces, "A o B" significa "ya sea en A o en B " o"Tanto en A como en B". Esto se conoce como "inclusivo o".</li>
+            <li>La regla de la suma establece que P (v4 kj B) = P (y4) + P (B) - P (A u B).</li>
+            <li>La probabilidad P (^ 4) y la probabilidad P (5) incluyen cada una la probabilidad de A y BP (A n B).</li>
+            <li>Para P (A u B) solo deseamos incluir esta probabilidad una vez, por lo que restamos una de estas probabilidades.</li>
+        </div>
+    </div>
+    <h3 class="npr">386</h3>
+</div>
+<!--Pagina 36-->
+<div class="p36">
+    <div style="background: red;color: white;display: inline-flex;padding: 10px;margin-top: 0ch;position: relative;left: 600px;">
+        <h1>8.4</h1>
+    </div>
+    <hr color="red" size="3" width="80%" style="position: relative;bottom: 11px;right:55px;">
+    <div style="background:  rgb(172, 117, 224);margin-left: 20px; width: 90%;">
+        <div style="margin-left: 20px;margin-top: 10px;padding-top: 10px;">
+            <li>Los eventos mutuamente excluyentes (o disjuntos) son eventos en los que dos resultados no pueden ocurrir al mismo tiempo.</li>
+            <li>En general, si dos eventos A y B son mutuamente excluyentes, se deduce que P (A nB) = 0 y elLa regla de la suma en estos casos es P (A u B) = P (A) + P (B).</li>
+            <b>Eventos independientes y dependientes y probabilidad condicional</b>
+            <li>Dos eventos A y B son independientes si la ocurrencia de uno no afecta la probabilidad de queocurre otro.</li>
+            <li>Si A y B son eventos independientes, entonces P (A|B) = P (A n B) x P (B).</li>
+            <li>P (A | B) se conoce como probabilidad condicional. Decimos la probabilidad de A dado B.</li>
+            <li>Para dos eventos A y B, la probabilidad de que ocurra A dado que B ha ocurrido se puede encontrar usando P(A|B)=P(A n B)/P(B)</li>
+            <li>Para cada evento independiente. P(A|B)=P(A)</li>
+            <ol>P(B|A)=P(B)</ol>
+            <ol>P(A|B´)=P(A)</ol>
+            <ol>P(B|A´)=P(B)</ol>
+            <b>Diagramas de árbol de probabilidad</b>
+            <li>Las situaciones en probabilidad pueden involucrar "con reemplazo" o "sin reemplazo" y noes una diferencia en las probabilidades que se calculan en cada caso.</li>
+        </div>
+    </div>
+    <div style="margin:20px;border: black 2px solid;">
+        <div style="display: flex;">
+            <div>
+                <h2>Desarrollar habilidades de indagación</h2>
+                <b>El problema de Monty Hall: solución de diagrama de árbol</b>
+                <p>Represente este problema en un diagrama de árbol. El diagrama tienese ha iniciado parcialmente aquí.</p>
+                <img src="Picture/img-p38.png">
+            </div>
+            <div style="width: 80%;">
+                <img src="Picture/p2 .jpg" style="width: 100%;">
             </div>
         </div>
     </div>
+    <h3 class="npl">387</h3>
 </div>
-<!--Pagina 30-->
-<!--Pagina 31-->
-<!--Pagina 32-->
-<!--Pagina 33-->
-<!--Pagina 34-->
-<!--Pagina 35-->
-<!--Pagina 36-->
 <!--Pagina 37-->
+<div class="p37">
+    <div style="display: flex;">
+        <h1 style="background: red;color: white;padding: 15px;margin-top: 0ch;">8</h1>
+        <h3>CUANTIFICACIÓN DEL ALEATORIO: PROBABILIDAD</h3>
+    </div>
+    <hr color="red" size="3" width="80%" style="position:relative;right:33px;top:-32px;">
+    <div style="width: 90%;margin-left: 20px;border: black 2px solid;">
+        <div>
+            <p>Una vez que se ha completado el diagrama de árbol, puede encontrar la probabilidad de ganar al cambiar (operder cuando no cambia) y perder cuando cambia (o ganar cuando no cambia) sumandolos resultados relevantes en la última columna.</p>
+            <p>¿Cuál es la probabilidad de ganar al cambiar? ¿Vale la pena cambiar?Hemos visto cuatro soluciones diferentes al problema de Monty Hall proporcionadas en este capítulo. Hay muchosotros posibles métodos para resolver el problema.</p>
+            <p>¿Cómo podría extender este problema para una exploración?</p>
+            <p>¿Qué hay de cambiar el número de puertas? ¿Qué efecto tendrá esto en la situación?</p>
+        </div>
+    </div>
+    <div>
+        <h2>Revisión del capitulo</h2>
+        <div style="display: flex;">
+            <div style="width:100%; margin-left: 20px;">
+                <p>1.-Un número de dos dígitos entre 10 y 99 inclusive se escribe al azar. Encontrar la probabilidad de que sea:</p>
+                <ol>a.-Divisible por 5</ol>
+                <ol>b.-Divisible por 3</ol>
+                <ol>c.-mayor que 50</ol>
+                <ol>d.-un número cuadrado</ol>
+                <p>2.-En una clase de 30 alumnos, 18 tienen un perro,20 tienen un gato y 3 no tienen ninguno. Si unEl miembro se selecciona al azar, encuentre elprobabilidad de que este alumno tenga un gatoy un perro.</p>
+                <p>3.-Para los eventos P(C)=0.7 P(C´ n D`)=0.25 P(D)=0.2</p>
+                <ol>a.-Encontrar P(C n D)</ol>
+                <ol>b.-Explique por qué C y D no soneventos independientes.</ol>
+                <p>4.-Los dos eventos A y B son tales queP (A) = 0.6, P (B) = 0.2 y P (A \ B) = 0.1.Calcule las probabilidades de que:</p>
+                <ol>a.- ambos eventos ocurren</ol>
+                <ol>b.- al menos uno de los eventos ocurre</ol>
+                <ol>c.- ocurre exactamente uno de los eventos</ol>
+                <ol>d.- B ocurre dado que A ha ocurrido.</ol>
+                <p>5.-Se pregunta a un grupo de 100 estudiantescuál de los tres tipos de programas de televisión.Drama, comedia y realidad, miranregularmente.</p>
+            </div>
+            <div style="margin-left: 20px;">
+                <p>Proporcionan la siguiente información:</p>
+                <ol>15 mira los tres tipos;</ol>
+                <ol>18 miran drama y comedia;</ol>
+                <ol>22 ven comedia y reality shows;</ol>
+                <ol>35 miran drama y reality shows;</ol>
+                <ol>10 ver ninguno de estos programasregularmente.</ol>
+                <p>Hay tres veces más estudiantesque ven solo drama que comedia,y dos veces más que ven comediasolo que solo en reality shows.</p>
+                <ol>a Si x se toma como el número de estudiantesque solo ven reality shows, escriban unexpresión para el número de estudiantesque solo juegan drama,</ol>
+                <ol>b Usando toda la información anterior copiay complete el diagrama de Venn dado.</ol>
+                <img src="Picture/img-p40.png">
+                <ol>Calcular el valor de x</ol>
+            </div>
+        </div>
+    </div>
+    <h3 class="npr">388</h3>
+</div>
 <!--Pagina 38-->
+<div class="p38">
+    <div style="background: red;color: white;display: inline-flex;padding: 10px;margin-top: 0ch;position: relative;left: 600px;">
+        <h1>8.4</h1>
+    </div>
+    <hr color="red" size="3" width="80%" style="position: relative;bottom: 11px;right:55px;">
+    <div style="display: flex;">
+        <div style="width:100%; margin-left: 20px;">
+            <p>6.-Sea P (C) = 0.4; P (D) = 0,5; P (C | D) = 0,6</p>
+            <ol>a.-Encuentre P (C y D).</ol>
+            <ol>b.-¿C y D son mutuamente excluyentes? Dar unrazón de tu respuesta</ol>
+            <ol>c.-¿Son C y D eventos independientes? Daruna razón para tu respuesta</ol>
+            <ol>d.-Encuentre P (C o D).</ol>
+            <ol>e.-Encuentre P (D | C).</ol>
+            <p>7.-Jack hace 3/5 de los trabajos en la casay Jill hace el resto. Jack termina el 35% desus trabajos correctamente y Jill termina el 55% desus trabajos correctamente. Encuentre la probabilidad de que unse hará el trabajo en la casa:</p>
+            <ol>a.- correctamente</ol>
+            <ol>b.-por Jill si no se hizo correctamente.</ol>
+            <p>8.-Yannick viaja a la escuela todos los díasen bicicleta, en autobús o en coche. La probabilidadque viaja en autobús cualquier día es 0,6. losprobabilidad de que viaje en bicicleta en cualquierdía es 0.3.</p>
+            <ol>a.-Dibuje un diagrama de árbol que muestreposibles resultados para Yannickviajes los lunes y martes,</ol>
+            <ol>b.-Encuentre la probabilidad de que Yannick viajes
+                <ol>ii.-en bicicleta el lunes y en autobús elmartes</ol>
+                <ol>iii.-por el mismo método de viaje enLunes y martes.</ol>
+            </ol>
+            <ol>c.-Yannick viajó a la escuela en bicicletalos lunes y martes. Encuentra elprobabilidad de que no viaje a escuela en bicicleta el miércoles yJueves y viernes,</ol>
+            <ol>d.-Encuentre la probabilidad de que en tresdías Yannick viaja dos veces en automóvil yuna vez en autobús o dos veces en bicicleta y una vezen coche.</ol>
+            <P>9.-Una bolsa contiene 6 manzanas rojas y 10 verdes.manzanas. Sin mirar dentro de la bolsaLauren selecciona al azar una manzana.</P>
+            <ol>a Calcula la probabilidad de que sea rojo.</ol>
+            <p>La manzana está roja y Lauren se la come. losLuego, la bolsa se pasa a Oscar. Sin miraren la bolsa, selecciona al azar una manzana.</p>
+        </div>
+        <div style="margin-left: 20px;">
+           <ol>b.-Encuentre la probabilidad de que sea verde.</ol>
+           <p>La manzana es verde y Oscar la reemplaza enel bolso. Luego, la bolsa se pasa a Darius.Sin mirar dentro de la bolsa, al azarselecciona dos manzanas.</p>
+           <ol>c.-Calcula la probabilidad de que ambos sean rojos.</ol>
+           <p>10,.En un paseo, Paul cuenta 70 conejos. De estosconejos, 42 son hembras, 34 no comenzanahorias, y 23 son mujeres y no comenzanahorias.</p>
+           <p>Dibuje un diagrama de Venn y, por tanto, encuentre elnúmero que son mujeres y que comenzanahorias.</p>
+           <ol>a.-Halla la probabilidad de que un conejo sea machoy no comer zanahorias,</ol>
+           <ol>b.-Encuentre la probabilidad de que un ratónhembra dado que está comiendo zanahorias,</ol>
+           <ol>c.-¿Ser mujer independientemente de comer?¿zanahorias? Justifica tu respuesta.</ol>
+           <h3 style="color: red;">Preguntas tipo examen</h3>
+           <p>11 PI: Un dado ordinario, justo y de seis caras esarrojado. Encuentra la probabilidad deobtención</p>
+           <ol>a.-Cinco</ol>
+           <ol>b.-Un número par</ol>
+           <ol>c.-un número primo</ol>
+           <ol>d.-un número mayor que 3 y menorde 6</ol>
+           <ol>e.-un número exactamente divisible por 7.</ol>
+           <p>12 PI: Dos dados ordinarios, justos, de seis caras son arrojado. Un dado es rojo y el otro esazul. Encuentre la probabilidad de que</p>
+           <ol>a.-arco de ambos dados un 5</ol>
+           <ol>b.-ambos dados tienen el mismo número</ol>
+           <ol>c.-el dado rojo es un 5 y el dado azul esun 4</ol>
+           <ol>d.-un dado es un 5 y el otro un 4</ol>
+           <ol>e.-el total de los dos dados es 7</ol>
+           <ol>f.-el dado rojo es un 5 dado que el azulel dado es un 4</ol>
+        </div>
+    </div>
+    <h3 class="npl">389</h3>
+</div>
 <!--Pagina 39-->
+<div class="p39">
+    <div style="display: flex;">
+        <h1 style="background: red;color: white;padding: 15px;margin-top: 0ch;">8</h1>
+        <h3>CUANTIFICACIÓN DEL ALEATORIO: PROBABILIDAD</h3>
+    </div>
+    <hr color="red" size="3" width="80%" style="position:relative;right:33px;top:-32px;">
+    <div style="display: flex;">
+        <div style="width:100%; margin-left: 20px;">
+            <ol>g.-uno de los dados es un 5</ol>
+            <ol>h.-uno de los dados es un 5 dado que elel total de los dos dados es 7.</ol>
+            <p></p>
+            <ol></ol>
+            <ol></ol>
+            <ol></ol>
+            <ol></ol>
+            <p></p>
+            <ol></ol>
+            <ol></ol>
+            <ol></ol>
+            <ol></ol>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div style="margin-left: 20px;">
+            <p>15 PI: De media en Gales llueve 3 días de cada 5 días.</p>
+            <ol>a.-Más de un mes, que tiene 30 días encalcula cuántos de estos díasse esperaría que llueva.</ol>
+            <ol>b.-Durante un período de 50 días, calculecuantos dias no seriaSe espera que llueva.</ol>
+            <ol>c.-Calcule cuánto tiempo endías, se esperaría tener 30días de lluvia en él.</ol>
+            <p>16 PI: En una escuela internacional con 100 estudiantes, 60 estudiantes hablan inglés, 40hablan francés y 10 estudiantes hablanninguno de estos dos idiomas.</p>
+            <ol>a.-Calcule cuántos estudiantes hablantanto en inglés como en francés.</ol>
+            <ol>b.-Dibuje un diagrama de Venn para representaresta informacion. En cada adjuntoregión puso el número de estudiantescorrespondiente a esta región.</ol>
+            <ol>c.-Calcule la probabilidad de que unestudiante elegido al azar
+                <ol>i.-habla Inglés, pero no francés</ol>
+                <ol>ii.-habla inglés o francés</ol>
+                <ol>iii.-no habla inglés.</ol>
+            </ol>
+            <ol>d.-Dado que un estudiante habla francés,hallar la probabilidad de que ellos también hablen Inglés.</ol>
+            <ol>e.-Sea E el evento de que un estudiantehabla inglés y Fbe el evento queun estudiante habla francés. Determinarcon una razón si los eventos E y Fareindependiente o no.</ol>
+        </div>
+    </div>
+</div>
 <!--Pagina 40-->
 <!--Pagina 41-->
 <!--Pagina 42-->
 <!--Pagina 43-->
 <!--Pagina 44-->
 <!--Pagina 45-->
-<!--Pagina 46-->
-<!--Pagina 47-->
-<!--Pagina 48-->
-<!--Pagina 49-->
 </body>
 </html>
